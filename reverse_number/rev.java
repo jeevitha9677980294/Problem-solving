@@ -8,7 +8,7 @@ public class rev {
       int digit = N % 10;
       // formula
       reverse = reverse * 10 + digit;
-      N = N / 10;
+      N = N / 10;   
     }
     System.out.println(reverse);
   }
